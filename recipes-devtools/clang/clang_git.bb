@@ -285,7 +285,7 @@ FILES_${PN}_remove = "${libdir}/${BPN}/*"
 INSANE_SKIP_${PN} += "already-stripped"
 #INSANE_SKIP_${PN}-dev += "dev-elf"
 INSANE_SKIP_${PN}-lldb-python += "dev-so dev-deps"
-INSANE_SKIP_liblldb = "dev-so"
+INSANE_SKIP_${MLPREFIX}liblldb = "dev-so"
 
 #Avoid SSTATE_SCAN_COMMAND running sed over llvm-config.
 SSTATE_SCAN_FILES_remove = "*-config"
