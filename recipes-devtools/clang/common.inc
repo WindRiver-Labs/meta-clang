@@ -39,6 +39,8 @@ SRC_URI = "\
     file://0028-llvm-Do-not-use-find_library-for-ncurses.patch \
     file://0029-llvm-Recognize-yoe-and-poky-as-OE-distro.patch \
     file://0030-compiler-rt-Use-mcr-based-barrier-on-armv6.patch \
+    file://0031-Fix-lib-paths-for-OpenEmbedded-Host.patch \
+    file://0032-Correct-library-search-path-for-OpenEmbedded-Host.patch \
 "
 # Fallback to no-PIE if not set
 GCCPIE ??= ""
